@@ -16,7 +16,7 @@ int main()
         while (num % i == 0)
         {
             factorCount++;
-            num /= 1;
+            num /= i;
         }
 
         divisorCount *= (1 + factorCount);
